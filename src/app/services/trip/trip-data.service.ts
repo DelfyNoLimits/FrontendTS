@@ -7,7 +7,7 @@ import {TripModel} from "../../models/trip.model";
   providedIn: 'root'
 })
 export class TripDataService {
-  baseURL = "http://localhost:8080/api/tripstore/v1/trips";
+  baseURL = "https://tripstoreapi.onrender.com/api/tripstore/v1/trips";
 
   constructor(private http: HttpClient) { }
 
