@@ -41,6 +41,7 @@ export class LoginComponent implements AfterViewInit, OnInit{
       username: this.username,
       password: this.password
     };
+    console.log('Realizando solicitud HTTP a:', this.userService.apiUrl + '/user/authenticate');
     this.userService.login(credentials).subscribe(
       (response: any) => {
         if (response) {
