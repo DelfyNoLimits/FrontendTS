@@ -8,6 +8,7 @@ declare let gtag: (property: string, value: any, configs: any) => {};
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+//
 export class AppComponent {
   title = 'open-source';
   constructor(public router: Router) {
